@@ -18,7 +18,7 @@ class OneScopes
     | You can get scopes from db or cache, bye bye hard coded definition
     */
 
-    private $scopeClass = 'DanieleTulone\OneScopes\Scope';
+    private static $scopeClass = 'DanieleTulone\OneScopes\Models\Scope';
     
     /**
      * Get all scopes. Automatically get from cache or from scopes table.
