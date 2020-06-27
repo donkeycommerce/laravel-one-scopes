@@ -1,10 +1,9 @@
 <?php
 
-namespace App\Providers;
+namespace DanieleTulone\OneScopes\Providers;
 
 use DanieleTulone\OneScopes\OneScopes;
-use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Laravel\Passport\Passport;
+use Illuminate\Support\ServiceProvider;
 
 class OneScopesServiceProvider extends ServiceProvider
 {
@@ -16,6 +15,10 @@ class OneScopesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->singleton(OneScopes::class);
-    }   
+        $this->app->singleton(OneScopes::class, function () {
+            return new OneScopes();
+        });
+
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+    }
 }
