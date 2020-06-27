@@ -1,0 +1,34 @@
+{
+    "name": "danieletulone/laravel-one-scopes",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "token",
+        "role",
+        "scopes",
+        "scope",
+        "passport",
+        "authentication",
+        "authorization"
+    ],
+    "authors": [
+        {
+            "name": "danieletulone",
+            "email": "danieletulone.work@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DanieleTulone\\OneScopes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanieleTulone\\OneScopes\\Providers\\OneScopesServiceProvider"
+            ]
+        }
+    }
+}
