@@ -26,7 +26,7 @@
         }
     },
     "extra": {
-        "laravel": {
+        "laravel": {
             "providers": [
                 "DanieleTulone\\OneScopes\\Providers\\OneScopesServiceProvider"
             ]
