@@ -7,18 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Scope extends Model
 {
     /**
-	 * The explicit cast to execute.
-	 * 
-	 * @author Daniele Tulone <danieletulone.work@gmail.com>
-	 *
-	 * @var array
-	 */
-    protected $casts = [
-        'created_at' => 'date:d-m-Y',
-        'updated_at' => 'date:d-m-Y',
-    ];
-
-    /**
      * List crud actions. Useful for seeder.
      * 
      * @author Daniele Tulone <danieletulone.work@gmail.com>

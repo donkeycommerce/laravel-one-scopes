@@ -15,8 +15,6 @@ class Role extends Model
 	 */
 	protected $casts = [
 		'scopes' => 'json',
-		'created_at' => 'date:d-m-Y',
-        'updated_at' => 'date:d-m-Y',
     ];
     
 	/**
