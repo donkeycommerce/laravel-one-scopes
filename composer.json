@@ -19,7 +19,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "danieletulone/laravel-files-support": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "DanieleTulone\\OneScopes\\": "src/"
