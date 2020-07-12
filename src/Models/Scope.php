@@ -13,7 +13,7 @@ class Scope extends Model
      *
      * @var array
      */
-    public static array $crudActions = [
+    public static $crudActions = [
         'create', 
         'read', 
         'update', 
@@ -40,7 +40,7 @@ class Scope extends Model
      *
      * @var array
      */
-    public static array $resources = [
+    public static $resources = [
         //
     ];
 
@@ -51,7 +51,7 @@ class Scope extends Model
      *
      * @var array
      */
-    public static array $scopes = [
+    public static $scopes = [
         //
     ];
 
