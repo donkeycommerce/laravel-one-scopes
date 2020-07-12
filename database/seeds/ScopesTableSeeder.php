@@ -30,7 +30,7 @@ class ScopesTableSeeder extends Seeder
      */
     private function seedCrudScopes(): void
     {
-        $models = Models::get();
+        $models = Models::all();
 
         $models = array_map(function ($item) {
             return strtolower(str_replace('.php', '', $item));
