@@ -14,7 +14,11 @@ trait HasScope
      */
     public function hasScope(string $scope): bool
     {
-        return in_array($scope, $this->role->scopes);
+        if (!$this->accessToken) {
+            return in_array($scope, $this->role->scopes ?? []);
+        } else {
+            return $this->tokenCan($scope);
+        }
     }
 
     /**
