@@ -1,5 +1,5 @@
 {
-    "name": "danieletulone/laravel-one-scopes",
+    "name": "donkeycommerce/laravel-one-scopes",
     "description": "A package for manage role and scopes better. One mode for all auth providers, included passport.",
     "type": "library",
     "keywords": [
