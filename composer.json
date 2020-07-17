@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DanieleTulone\\OneScopes\\": "src/"
+            "DonkeyCommerce\\OneScopes\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DanieleTulone\\OneScopes\\Providers\\OneScopesServiceProvider"
+                "DonkeyCommerce\\OneScopes\\Providers\\OneScopesServiceProvider"
             ]
         }
     }
