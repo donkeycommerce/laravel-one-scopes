@@ -1,8 +1,8 @@
 <?php
 
-namespace DanieleTulone\OneScopes\Providers;
+namespace DonkeyCommerce\OneScopes\Providers;
 
-use DanieleTulone\OneScopes\OneScopes;
+use DonkeyCommerce\OneScopes\OneScopes;
 use Illuminate\Support\ServiceProvider;
 
 class OneScopesServiceProvider extends ServiceProvider

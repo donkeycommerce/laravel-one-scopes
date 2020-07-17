@@ -1,6 +1,6 @@
 <?php
 
-namespace DanieleTulone\OneScopes\Traits;
+namespace DonkeyCommerce\OneScopes\Traits;
 
 trait HasScope
 {
@@ -52,6 +52,6 @@ trait HasScope
      */
     public function role()
     {
-        return $this->belongsTo('DanieleTulone\OneScopes\Models\Role');
+        return $this->belongsTo('DonkeyCommerce\OneScopes\Models\Role');
     }
 }
