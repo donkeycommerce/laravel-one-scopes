@@ -20,7 +20,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "donkeycommerce/laravel-files-support": "^0.0.1"
+        "donkeycommerce/laravel-files-support": "^0.0.2"
     },
     "autoload": {
         "psr-4": {
