@@ -1,6 +1,6 @@
 <?php
 
-namespace DanieleTulone\OneScopes\Models;
+namespace DonkeyCommerce\OneScopes\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
