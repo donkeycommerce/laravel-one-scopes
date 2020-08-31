@@ -1,7 +1,7 @@
 <?php
 
-use DanieleTulone\Support\Files\Models;
-use DanieleTulone\OneScopes\Models\Scope;
+use DonkeyCommerce\Support\Files\Models;
+use DonkeyCommerce\OneScopes\Models\Scope;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
